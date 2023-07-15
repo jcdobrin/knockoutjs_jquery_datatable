@@ -1,0 +1,50 @@
+cbox {display:none;}
+.box {background: #fafafa;border-radius: 3px;box-shadow: 0 1px 3px rgba(0, 0, 0, .2);position:relative;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing: border-box;}
+.box.header {padding-top:40px;}
+.box.header .box-header{position:absolute;top:0px;}
+
+.box.footer {padding-bottom:47px;}
+.box.footer .action_bar {min-height:33px;position:absolute;bottom:0px;left:0px;}
+.box .action_bar {background: url("../img/action_bar_bg.png") repeat-x #E8E8E8;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;padding: 7px 0px;width:100%;margin:0px;}
+.box .action_bar.padding{box-sizing:border-box;padding:7px 14px 7px 8px;}
+
+.box-header {background-color: #e5e5e5;background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(235, 235, 235)), to(rgb(229, 229, 229)));background-image: -webkit-linear-gradient(top, rgb(235, 235, 235), rgb(229, 229, 229));background-image: -moz-linear-gradient(top, rgb(235, 235, 235), rgb(229, 229, 229));background-image: -o-linear-gradient(top, rgb(235, 235, 235), rgb(229, 229, 229));background-image: -ms-linear-gradient(top, rgb(235, 235, 235), rgb(229, 229, 229));background-image: linear-gradient(top, rgb(235, 235, 235), rgb(229, 229, 229));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ebebeb', EndColorStr='#e5e5e5');border-top: 1px solid #fafafa;border-top-left-radius: 3px;border-top-right-radius: 3px;min-height: 40px;width:100%;}
+.box-header.error {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(253,110,110)), to(rgb(253, 200, 200)));
+	background-image: -webkit-linear-gradient(top, rgb(253,110,110), rgb(253, 200, 200));
+	background-image: -moz-linear-gradient(top, rgb(253,110,110), rgb(253, 200, 200));
+	background-image: -o-linear-gradient(top, rgb(253,110,110), rgb(253, 200, 200));
+	background-image: -ms-linear-gradient(top, rgb(253,110,110), rgb(253, 200, 200));
+	background-image: linear-gradient(top, rgb(253,110,110), rgb(253, 200, 200));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FDD2D2', EndColorStr='#f5e5e5');
+}
+.box-header .glyph {float: left;font-size: 16px;line-height: 40px;margin-right: -3px;padding-left: 14px;text-shadow: 0 1px 0 #fff;}
+.box-header .icon16 {float: left;height: 16px;width: 16px;margin-left: 14px;margin-right: -3px;margin-top: 11px;}
+.box-header h1 {color: #898989;float: left;font-family: "Tahoma", "Lucida Grande", sans-serif;font-size: 11px;font-weight: bold;line-height: 40px;padding-left: 14px;text-shadow: 0 1px 0 #fff;text-transform: uppercase;}
+.box-header.error h1 {text-shadow: 0 1px 0 #FCC;color: #555;}
+.box-header ul {border-left: 1px solid #e1e1e1;float: right;}
+.box-header ul li {display: inline;margin-left: -3px;}
+.box-header ul li a {border-left: 1px solid #f2f2f2;border-right: 1px solid #e1e1e1;color: #999;display: inline-block;font-family: "Tahoma", "Lucida Grande", sans-serif;font-size: 11px;font-weight: bold;line-height: 40px;padding: 0 20px;text-decoration: none;text-transform: uppercase;zoom: 1;*display: inline;}
+.box-header ul li a:hover {background: #eee;}
+.box-header ul li:first-child {margin-left: 0;}
+.box-header ul li:last-child a {border-right: none;}
+.box-header ul li.active a {background: #fafafa;border-left: 1px solid #fafafa;cursor: default;}
+.box-header .button {float: right;margin: 3px 5px 0 0;}
+
+.box-content {padding: 14px;}
+
+.box table {width: 100%;}
+.box table TBODY tr {border-bottom: 1px solid #ebebeb;border-top: 1px solid #fff;}
+.box thead tr {border-top: none;}
+.box tbody tr:nth-child(odd) {background: #fdfdfd;}
+.box tbody tr:last-child td:first-child {border-bottom-left-radius: 3px;}
+.box tbody tr:last-child td:last-child {border-bottom-right-radius: 3px;}
+.box tbody tr td, .box thead tr th {border-left: 1px solid #fff;border-right: 1px solid #f4f4f4;position: relative;}
+
+table.third td {
+	padding: 10px;
+}
+
+.action_bar>a:first-child, .action_bar .ui-dialog-buttonset {
+	margin-left:10px !important;
+}

@@ -1,0 +1,152 @@
+form input[type="text"], form input[type="password"], form textarea {
+	background: url('../img/input_bg.png') repeat-x #fdfdfd;
+	border: 1px solid #d9d9d9;
+	border-top: 1px solid #ccc;
+	border-radius: 2px;
+	box-shadow: 0 1px 0 #fff;
+	color: #666;
+	font-family: "Aller", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	height: 30px;
+	outline: none;
+	padding: 6px 10px;
+	resize: none;
+	width: 100%;
+}
+form input::-webkit-input-placeholder, form input::-moz-placeholder {
+	color: #bbb;
+}
+
+form textarea {
+	height: 112px;
+	line-height: 18px;
+	margin-bottom: 0;
+	padding-top: 8px;
+}
+
+form div.combined {
+	position: relative;
+}
+
+form div.combined p {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+
+form div.combined p input {
+	display: inline;
+}
+
+form div.combined p:first-child input {
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	border-right: none;
+}
+
+form div.combined p:first-child {
+	margin-right: -3px;
+}
+
+form div.combined p.last-child {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+form div.combined p.last-child input {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+form p.small { width: 25% }
+form p.medium { width: 51% }
+form p.large { width: 76% }
+
+form p .icon {
+	position: absolute;
+	right: 8px;
+	top: 7px;
+}
+
+form p .icon.valid {
+	display: none;
+}
+
+form p input.error, form p textarea.error {
+	border: 1px solid #d29797;
+	border-top: 1px solid #ae6767;
+	color: #ad6262;
+}
+
+form p span.error {
+	background: url('../img/error.png') no-repeat center;
+	display: block;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 30px;
+	z-index: 99;
+}
+
+form p span.error label {
+	background: url('../img/tooltip_bg.png');
+	border-radius: 3px;
+	bottom: 31px;
+	color: #fff;
+	display: none !important;
+	font-size: 11px;
+	line-height: 17px;
+	padding: 6px 9px;
+	position: absolute;
+	right: -25px;
+	text-align: left;
+	width: 180px;
+	z-index: 9;
+}
+
+form p .tip {
+	background: url('../img/tip_bg.png') no-repeat;
+	bottom: -6px;
+	display: block;
+	height: 6px;
+	position: absolute;
+	right: 34px;
+	width: 12px;
+	z-index: 9;
+}
+
+form p span.error:hover label {
+	display: block !important;
+}
+
+form p > label {
+	color: #666;
+	line-height: 19px;
+	text-indent: 4px;
+}
+
+form p {
+	clear: both;
+	color: #999;
+	line-height: 24px;
+}
+
+form p small {
+	font-size: 11px;
+	font-style: italic;
+	float: right;
+	margin-bottom: 14px;
+}
+
+form > div > p:last-child {
+	margin: 0;
+}
+
+form input:disabled {
+	background:#EDEDED !important;
+	color:#888 !important;
+	font-style:italic !important;
+}
+

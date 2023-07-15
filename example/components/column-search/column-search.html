@@ -1,0 +1,32 @@
+<div style="position:relative;padding-right:35px;" data-bind="">
+	<span data-bind="text:display_name"></span>
+	<span class="customsearch" style="margin-right:10px" data-bind=",click:function(object,$event){ $event.stopPropagation(); toggleSearchBox($element) }">&#128269;</span>
+</div>
+<script type="text/template" id="searchbox-template">
+	<div class="search-box" data-bind="style:{top:top,left:left}, event:{keyup: checkExit}">
+		<span style="font-weight:bold" data-bind="text:'Search '+display_name" />
+			<p data-bind="if: type=='num' ">
+				<select data-bind="
+					options:oper_options,
+					optionsText:'d',
+					optionsValue:'v',
+					value:oper" />
+			</p>
+			<p>
+				<input data-bind="hasFocus:true, value:search, attr:{placeholder:type=='num' ? 'Numeric Search' : 'Character Search'}" type="text" name="CharSearch" />
+			</p>
+<!--
+			<p>
+				<input type="radio" value="ASC" name="sort" id="ASC" /><label for="ASC">Sort Ascending</label>
+				<br>
+				<input type="radio" value="DESC" name="sort" id="DESC" /><label for="DESC">Sort Descending</label>
+			</p>
+-->
+			<p>
+				<div class="middle">
+					<a data-bind="click:close.bind({},$($element).closest('.search-box')[0])" class="button plain">Close</a>
+					<a data-bind="click:makeSearch" class="button plain">Submit</a>
+				</div>
+			</p>
+		</div>
+</script>

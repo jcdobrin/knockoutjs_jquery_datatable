@@ -1,0 +1,230 @@
+#example_wrapper {
+	background: #E8E8E8;
+	border-radius:3px;
+}
+#example_wrapper .dataTables_length {
+	position: absolute;
+	top: -30px;
+	right: 15px;
+}
+
+#example_wrapper .dataTables_filter {
+	position: absolute;
+	top: -28px;
+	right: 200px;
+	z-index: 9998;
+}
+
+#example_wrapper .dataTable thead {
+	z-index: 9998;
+}
+
+#example_wrapper .dataTable tbody td{
+	border-bottom:0px;
+}
+
+#example_wrapper table.dataTable thead th {
+	font-weight: bold;
+	cursor: pointer;
+	*cursor: hand;
+	vertical-align: middle;
+	background-color:#FFF;
+}
+#example_wrapper table.dataTable tfoot input {
+	width: 100%;
+	min-width: 100px;
+}
+
+#example_wrapper table.dataTable tbody td {
+	margin: 0;
+}
+
+#example_wrapper .dataTables_info, #example_wrapper .dataTables_paginate {
+	margin: 10px;
+}
+
+#example_wrapper .dataTables_paginate {
+	right: 0;
+}
+
+#example_wrapper .dataTables_scrollBody {
+	border-bottom:#C00;
+}
+
+#example_wrapper thead th, table.dataTable thead td {
+	border-bottom:#EEE 1px solid;
+	background-color:#FAFAFA !important;
+}
+
+#jQuery_Table_wrapper .dataTable tbody td {
+	cursor:pointer;
+}
+
+table.list th, table.list td
+{
+	padding:14px 10px;
+}
+
+table.dataTable th, table.dataTable td
+{
+	border-right: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	min-height:12px;
+	text-align: left;
+	padding: 10px 4px;
+}
+
+table.dataTable THEAD th
+{
+	white-space:nowrap;
+}
+
+.DTFC_LeftHeadWrapper
+{
+	background-color:#FAFAFA;
+}
+thead TH{
+	color: #898989 !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+}
+
+table.dataTable tbody tr:first-child
+{
+	border-top:0px !important;
+}
+
+tr.odd {
+	background-color: #fdfdfd;
+}
+
+tr.even {
+	background-color: #FAFAFA;
+}
+
+.search-box {
+	cursor: default;
+	width: 200px;
+	background: #FAFAFA;
+	z-index: 10000;
+	position: absolute;
+	white-space: normal;
+	padding: 5px;
+	border: 1px solid #f4f4f4;
+	border-top: none;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-box-shadow: 3px 3px 4px rgba(50, 50, 50, 0.19);
+	-moz-box-shadow:	3px 3px 4px rgba(50, 50, 50, 0.19);
+	box-shadow:		 3px 3px 4px rgba(50, 50, 50, 0.19);
+}
+.search-box input[type="text"] {
+	border-radius: 2px !important;
+	_border: 1px !important;
+	width: 100%;
+}
+.search-box input[type="radio"] {
+	margin: 4px 5px 0 0;
+	display: inline-table;
+}
+.search-box .middle {
+	width: 100%;
+	text-align: center;
+}
+
+.DTFC_LeftBodyWrapper
+{
+	z-index:1000;
+}
+
+.dataTables_scroll
+{
+	overflow:auto;
+	width:inherit;
+}
+
+
+table.list th, table.list td
+{
+	padding:14px 10px;
+}
+
+table.dataTable th, table.dataTable td
+{
+	border-right: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	min-height:12px;
+	text-align: left;
+	padding: 10px 4px;
+}
+
+table.dataTable THEAD th
+{
+	white-space:nowrap;
+}
+
+.DTFC_LeftHeadWrapper
+{
+	background-color:#FAFAFA;
+}
+thead TH{
+	color: #898989 !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+}
+
+#example_wrapper tbody tr:first-child td
+{
+	border-top:0px !important;
+}
+
+#example_wrapper tr.odd {
+#	background-color: #fdfdfd;
+}
+
+#example_wrapper tr.even {
+	background-color: #F7F7F7;
+}
+#example_wrapper tbody tr.selected {
+	background-color: #AAFFAA !important;
+}
+
+.DTFC_LeftBodyWrapper
+{
+	z-index:1000;
+}
+.dataTables_scrollBody THEAD TH {
+	border-bottom:0px !important;
+}
+
+table.dataTable tbody tr.hover,
+table.dataTable tbody tr.odd.hover,
+table.dataTable tbody tr.even.hover,
+table.dataTable.display tbody tr.hover,
+table.dataTable tbody tr.odd.hover,
+table.dataTable tbody tr.even.hover {
+  background-color: #E2E2F2 !important;
+}
+
+.dataTables_scrollBody table.table-condensed  {
+	float:left;
+}
+
+.dataTables_scrollHeadInner table thead tr th:nth-child(last){
+	padding-right:21px;
+}
+
+table.dataTable.no-footer {border-bottom:0px !important;}
+
+
+table.dataTable thead th[aria-sort="ascending"] {
+  background-image: url("../bower_modules/datatables/media/images/sort_asc.png");
+}
+
+table.dataTable thead th[aria-sort="descending"] {
+  background-image: url("../bower_modules/datatables/media/images/sort_desc.png");
+}

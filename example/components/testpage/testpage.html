@@ -1,0 +1,46 @@
+<script type="text/template" id="num_value">
+	<button data-bind="click:$parent.removeQuery, value:$index" class="cross blue" type="submit" name="search_point">
+		<span class="cross">&#9587;</span>
+		<span data-bind="text:Display"></span>
+		<span data-bind="text:Oper" style="text-transform:lowercase;"></span>
+		<span data-bind="component:{name:'unit-object', params:{value:Value}}"></span>
+	</button>
+</script>
+
+<script type="text/template" id="char_value">
+	<button data-bind="click:$parent.removeQuery, value:$index" class="cross blue" type="submit" name="search_point">
+		<span class="cross">&#9587;</span>
+		<span data-bind="text:ColName.replace(/`/g, '')"></span>
+		<span style="text-transform:lowercase;">contains</span>
+		<span data-bind="text: Value.replace('%', '&ldquo;').replace('%', '&rdquo;')"></span>
+	</button>
+</script>
+
+<!-- ko if: QueryParams.length == 0 -->
+<span data-bind="template: { afterRender: function(){$(window).trigger('resize');} }"></span>
+<!-- /ko -->
+<div style="clear:both;margin-bottom:2px;min-height:36px;" data-bind="foreach:{data:QueryParams, afterRender:function(){$(window).trigger('resize')}}">
+	<span data-bind="template:{ name:  Oper!='LIKE' && Oper!='contains'  ? 'num_value' : 'char_value' }"></span>
+</div>
+<simple-datatable id="users" params="{
+	extrapadding:35,
+	paging : true,
+	bFilter : false,
+	serverSide: true,
+	columnFilter:false,
+	processing : true,
+	ajax : 'users.json',
+	order: [[ 0, 'desc' ]],
+	columns : columns,
+	columnDefs: [],
+	fnDrawCallback: function(oSettings) {
+		var tmp = ko.utils.domNodeDisposal.cleanExternalData;
+		ko.utils.domNodeDisposal.cleanExternalData = function () {};
+		ko.cleanNode(oSettings.nScrollBody.children[0]);
+		ko.applyBindings($data, oSettings.nScrollBody.children[0]);
+		ko.cleanNode(oSettings.nScrollHead.children[0]);
+		ko.applyBindings($data, oSettings.nScrollHead.children[0]);
+		ko.utils.domNodeDisposal.cleanExternalData = tmp;
+	}
+}">
+</simple-datatable>

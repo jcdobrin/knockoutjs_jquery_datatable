@@ -1,0 +1,212 @@
+.button{
+	border: 1px solid #c4c4c4;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px #ddd;
+	color: #757575;
+	display: inline-block;
+	font-family: "Tahoma", sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 31px;
+	line-height: 31px;
+	margin-right: 4px;
+	padding: 0 14px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	text-transform: uppercase;
+	zoom: 1;
+	cursor:pointer;
+	*display: inline;
+}
+
+input.button {
+	height: 33px;
+	margin-top: -3px;
+}
+
+.button.blue, .paginate_active {
+	border: 1px solid #477dae;
+	color: #fff;
+	text-shadow: 0 1px 0 #104266;
+}
+
+.button.yellow {
+	background: #477dae;
+	border: 1px solid #477dae;
+	color: #fff;
+	text-shadow: 0 1px 0 #104266;
+}
+
+.button.green {
+	background: #477dae;
+	border: 1px solid #477dae;
+	color: #fff;
+	text-shadow: 0 1px 0 #104266;
+}
+
+.button:hover, .paginate_active:hover {
+	background: #ebebeb;
+}
+
+.button.blue:hover, .paginate_active:hover {
+	background: #558bbc;
+}
+
+.button .glyph {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+	margin-right: 8px;
+	margin-top: -100%;
+}
+
+.button .icon16 {
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin-left: -1px;
+	margin-right: 8px;
+	margin-top: 7px;
+}
+
+.button.small {
+	font-size: 10px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 10px;
+}
+
+.button.small .icon16 {
+	background-size: 28px;
+	background-repeat: no-repeat;
+	height: 14px;
+	margin-top: 5px;
+	margin-right: 7px;
+	width: 14px;
+}
+
+.button.small .glyph {
+	font-size: 14px;
+}
+
+.button.plain {
+	background: #f2f2f2;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	color: #aaa;
+	font-size: 9px;
+	height: 22px;
+	line-height: 22px;
+	margin: -4px 0;
+}
+
+.button.plain.blue {
+	background:  #477dae;
+	border: 1px solid #477dae;
+	color: #fff;
+	text-shadow: 0 1px 0 #104266;
+}
+.button.plain.blue:hover {
+	color: #fff;
+}
+
+.button.plain.green {
+	background: #477dae;
+	border: 1px solid #477dae;
+	color: #fff;
+	text-shadow: 0 1px 0 #104266;
+}
+.button.plain.blue:hover {
+	color: #fff;
+}
+
+.button.plain.yellow {
+	border: 1px solid #477dae;
+	color: #888;
+	text-shadow: 0 1px 0 #104266;
+}
+.button.plain.yellow:hover {
+	color: #fff;
+}
+
+.button.plain.red {
+	border: 1px solid #477dae;
+	color: #888;
+	text-shadow: 0 1px 0 #104266;
+}
+.button.plain.red:hover {
+	color: #fff;
+}
+
+
+.button.plain:hover {
+	color: #777;
+}
+
+.button.plain .glyph {
+	font-size: 12px;
+	margin-right: 4px;
+}
+
+.button.plain .icon16 {
+	background-size: 24px;
+	height: 12px;
+	margin-left: -3px;
+	margin-top: 5px;
+	width: 12px;
+}
+
+.button.plain:first-child {
+	border-bottom-left-radius: 2px;
+	border-top-left-radius: 2px;
+}
+
+.button.plain:last-child {
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+.button span.ui-icon {
+	float: left;
+	margin-right: 8px;
+	margin-top: 7px;
+	opacity: .7;
+}
+
+button.right {
+	float: right;
+	margin: 5px;
+}
+
+button.cross {
+	margin: 3px 0 0 5px;
+	border: 1px solid #C4C4C4;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px #DDD;
+	color: #757575;
+	display: inline-block;
+	font-family: "Tahoma", sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 31px;
+	line-height: 31px;
+	margin-right: 4px;
+	padding: 0 14px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 white;
+	text-transform: uppercase;
+	zoom: 1;
+}
+
+button.cross:hover {
+	background: #EBEBEB;
+}
+
+span.cross {
+	display: inline;
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 0px 7px 0 -5px;
+}

@@ -1,0 +1,127 @@
+{
+	"recordsTotal": 15,
+	"recordsFiltered": "100 Users",
+	"draw": "Users",
+	"data" : [ 
+	{
+		"username": "steve34",
+		"sex": "M",
+		"address": "091 Smith Neck Suite 729, Fergusonhaven, ID 12166",
+		"name": "David White",
+		"email": "jerry47@hotmail.com",
+		"birthday": "2008-09-24"
+	},
+	{
+		"username": "brian59",
+		"sex": "M",
+		"address": "03852 Lucas Roads Suite 792, South Kiaraport, MS 41305",
+		"name": "Johnny Miller",
+		"email": "jenniferlove@hotmail.com",
+		"birthday": "1942-04-13"
+	},
+	{
+		"username": "stevenpitts",
+		"sex": "M",
+		"address": "335 Nancy Forges, Rhodesmouth, AZ 18835",
+		"name": "Joshua Gallagher",
+		"email": "sophia76@yahoo.com",
+		"birthday": "1958-11-29"
+	  },
+	  {
+		"username": "mckaymia",
+		"sex": "M",
+		"address": "624 Anthony Neck, Christinahaven, AK 70975",
+		"name": "Peter Coleman",
+		"email": "ericparker@gmail.com",
+		"birthday": "2000-12-26"
+	  },
+	  {
+		"username": "pkidd",
+		"sex": "M",
+		"address": "839 Timothy Stream, North Shawnport, WV 96563",
+		"name": "Charles Chavez",
+		"email": "brownjohn@yahoo.com",
+		"birthday": "2011-11-01"
+	  },
+	  {
+		"username": "fallen",
+		"sex": "F",
+		"address": "6286 Kevin Crest Suite 500, Reyesfurt, VT 71697",
+		"name": "Michelle Smith",
+		"email": "juan78@hotmail.com",
+		"birthday": "1974-12-21"
+	  },
+	  {
+		"username": "steve34",
+		"sex": "M",
+		"address": "091 Smith Neck Suite 729, Fergusonhaven, ID 12166",
+		"name": "David White",
+		"email": "jerry47@hotmail.com",
+		"birthday": "2008-09-24"
+	},
+	{
+		"username": "brian59",
+		"sex": "M",
+		"address": "03852 Lucas Roads Suite 792, South Kiaraport, MS 41305",
+		"name": "Johnny Miller",
+		"email": "jenniferlove@hotmail.com",
+		"birthday": "1942-04-13"
+	},
+	{
+		"username": "stevenpitts",
+		"sex": "M",
+		"address": "335 Nancy Forges, Rhodesmouth, AZ 18835",
+		"name": "Joshua Gallagher",
+		"email": "sophia76@yahoo.com",
+		"birthday": "1958-11-29"
+	  },
+	  {
+		"username": "mckaymia",
+		"sex": "M",
+		"address": "624 Anthony Neck, Christinahaven, AK 70975",
+		"name": "Peter Coleman",
+		"email": "ericparker@gmail.com",
+		"birthday": "2000-12-26"
+	  },
+	  {
+		"username": "pkidd",
+		"sex": "M",
+		"address": "839 Timothy Stream, North Shawnport, WV 96563",
+		"name": "Charles Chavez",
+		"email": "brownjohn@yahoo.com",
+		"birthday": "2011-11-01"
+	  },
+	  {
+		"username": "fallen",
+		"sex": "F",
+		"address": "6286 Kevin Crest Suite 500, Reyesfurt, VT 71697",
+		"name": "Michelle Smith",
+		"email": "juan78@hotmail.com",
+		"birthday": "1974-12-21"
+	  },
+	  {
+		"username": "steve34",
+		"sex": "M",
+		"address": "091 Smith Neck Suite 729, Fergusonhaven, ID 12166",
+		"name": "David White",
+		"email": "jerry47@hotmail.com",
+		"birthday": "2008-09-24"
+	},
+	{
+		"username": "brian59",
+		"sex": "M",
+		"address": "03852 Lucas Roads Suite 792, South Kiaraport, MS 41305",
+		"name": "Johnny Miller",
+		"email": "jenniferlove@hotmail.com",
+		"birthday": "1942-04-13"
+	},
+	{
+		"username": "stevenpitts",
+		"sex": "M",
+		"address": "335 Nancy Forges, Rhodesmouth, AZ 18835",
+		"name": "Joshua Gallagher",
+		"email": "sophia76@yahoo.com",
+		"birthday": "1958-11-29"
+	  }
+	]	  
+}

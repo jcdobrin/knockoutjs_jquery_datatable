@@ -1,0 +1,21 @@
+@import url('reset.css');
+@import url('formalize.css');
+@import url('styles.css');
+@import url('datatable.css');
+@import url('buttons.css');
+
+
+
+@media all and (orientation:portrait) and (max-device-width:1024px)
+{
+	DIV#enforce_landscape{display:block;}
+}
+@media all and (orientation:landscape) and (max-device-width:1024px)
+{
+	DIV#enforce_landscape{display:none;}
+}
+
+@media all and (min-device-width:1024px)
+{
+	DIV#enforce_landscape{display:none;}
+}
